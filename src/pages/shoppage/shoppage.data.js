@@ -209,37 +209,37 @@ const SHOP_DATA =  [
         {
           id: 1,
           name: 'Camo Down Vest',
-          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/womens/camo-vest.png`,
+          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/mens/camo-vest.png`,
           price: 325
         },
         {
           id: 2,
           name: 'Floral T-shirt',
-          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/womens/floral-shirt.png`,
+          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/mens/floral-shirt.png`,
           price: 20
         },
         {
           id: 3,
           name: 'Black & White Longsleeve',
-          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/womens/long-sleeve.png`,
+          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/mens/long-sleeve.png`,
           price: 25
         },
         {
           id: 4,
           name: 'Pink T-shirt',
-          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/womens/pink-shirt.png`,
+          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/mens/pink-shirt.png`,
           price: 25
         },
         {
           id: 5,
           name: 'Jean Long Sleeve',
-          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/womens/roll-up-jean-shirt.png`,
+          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/mens/roll-up-jean-shirt.png`,
           price: 40
         },
         {
           id: 6,
           name: 'Burgundy T-shirt',
-          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/womens/polka-dot-shirt.png`,
+          imageUrl: `${process.env.PUBLIC_URL}/resources/static/images/shop-img/mens/polka-dot-shirt.png`,
           price: 25
         }
       ]
