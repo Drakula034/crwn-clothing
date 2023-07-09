@@ -12,29 +12,34 @@ class Directory extends React.Component{
             sections: [{
                 id: 1,
                 title: 'hats',
-                image: `${process.env.PUBLIC_URL}/resources/static/images/hats.webp`
+                image: `${process.env.PUBLIC_URL}/resources/static/images/hats.webp`,
+                linkUrl: 'hats'
             },
             {
                 id: 2,
                 title: 'jackets',
-                image: `${process.env.PUBLIC_URL}/resources/static/images/jackets.webp`
+                image: `${process.env.PUBLIC_URL}/resources/static/images/jackets.webp`,
+                linkUrl: ''
             },
             {
                 id: 3,
                 title: 'sneakers',
-                image: `${process.env.PUBLIC_URL}/resources/static/images/sneakers.jpg`
+                image: `${process.env.PUBLIC_URL}/resources/static/images/sneakers.jpg`,
+                linkUrl: ''
             },
             {
                 id: 4,
                 title: 'women',
                 size : 'large',
-                image: `${process.env.PUBLIC_URL}/resources/static/images/women.png`
+                image: `${process.env.PUBLIC_URL}/resources/static/images/women.png`,
+                linkUrl: ''
             },
             {
                 id: 5,
                 title: 'men',
                 size : 'large',
-                image: `${process.env.PUBLIC_URL}/resources/static/images/men.jpg`
+                image: `${process.env.PUBLIC_URL}/resources/static/images/men.jpg`,
+                linkUrl: ''
             }
         ]
         }
@@ -44,8 +49,8 @@ class Directory extends React.Component{
         return (
             <div className="directory-menu">
                 {
-                    this.state.sections.map(({id, title, image, size}) =>(
-                        <MenuItem key={id} title={title} image = {image} size={size}/>
+                    this.state.sections.map(({id, ...otherSectionProps}) =>(
+                        <MenuItem key={id} {...otherSectionProps} />
                     ))
                 }
             </div>
