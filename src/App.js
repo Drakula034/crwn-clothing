@@ -5,6 +5,7 @@ import "./App.css";
 import HomePage from "./pages/homepage/homepage.component.jsx";
 import ShopPage from "./pages/shoppage/shoppage.component";
 import NavBar from "./components/navbar/navbar.component";
+import LoginAndSignUpPage from "./pages/login-and-signup/login-and-signup.component";
 
 // const HatsPage = () => (
 //   <div>
@@ -20,6 +21,7 @@ function App() {
           
           <Route path="/" element={<HomePage />} />
           <Route path="/shop" element={<ShopPage />} />
+          <Route path="/signin" element={<LoginAndSignUpPage />} />
           
         
       </Routes>
